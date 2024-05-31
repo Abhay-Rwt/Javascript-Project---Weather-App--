@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Aboreto", system-ui;
+	font-weight: 800;
+	font-style: normal;
+}
+
+body {
+	background-color: black;
+}
+
+.main {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35vw;
+	background-color: rgb(26, 164, 215);
+	border-radius: 37px;
+	padding: 32px;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 17px;
+}
+
+.search input {
+	border: none;
+	outline: none;
+	border-radius: 37px;
+	background-color: white;
+	padding: 1.2rem;
+	width: 15rem;
+	font-size: large;
+}
+
+.search-img button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.search-img img {
+	width: 2rem;
+}
+
+.whether-icon {
+	display: flex;
+	justify-content: center;
+}
+
+.temperature {
+	padding: 0px;
+}
+
+.celcius {
+	height: 16vh;
+	font-size: 5rem;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.city-name {
+	font-size: 20px;
+	text-align: center;
+}
+
+.details {
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem;
+}
+
+.details p {
+	text-align: center;
+}
+
+.weather{
+	display: none;
+}
